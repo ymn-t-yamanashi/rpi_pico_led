@@ -3,16 +3,7 @@ defmodule RpiPicoLed do
   Documentation for `RpiPicoLed`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> RpiPicoLed.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def start do
+    :ok
   end
 end
