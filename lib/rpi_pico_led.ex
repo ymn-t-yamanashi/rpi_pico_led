@@ -4,6 +4,7 @@ defmodule RpiPicoLed do
   """
 
   def start do
+    IO.inspect("RpiPicoLed boot")
     :ok
   end
 end

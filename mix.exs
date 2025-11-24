@@ -10,7 +10,7 @@ defmodule RpiPicoLed.MixProject do
       deps: deps(),
       atomvm: [
         start: RpiPicoLed,
-        flash_offset: 0x250000
+        lash_offset: 0x210000
       ]
     ]
   end
