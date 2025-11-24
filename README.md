@@ -1,21 +1,15 @@
-# RpiPicoLed
+# Elixir(AtomVM)でLチカ　〜 Raspberry Pi Pico 〜
 
-**TODO: Add description**
 
-## Installation
+### ビルド
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `rpi_pico_led` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:rpi_pico_led, "~> 0.1.0"}
-  ]
-end
+```
+$ mix deps.get
+$ mix atomvm.uf2create --family_id rp2040
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/rpi_pico_led>.
-
+### Raspberry Pi Picoにビルド結果を転送
+- Raspberry Pi Picoをリセットボタンを押しなら、USBを差し込むとフォルダーが表示されます
+- rpi_pico_led.uf2をRPI-RP2にコピーします
+- コピーが完了すると自動でアンマウントします
+- 数秒するとLEDが点滅します

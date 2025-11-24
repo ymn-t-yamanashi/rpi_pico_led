@@ -4,6 +4,9 @@ defmodule RpiPicoLed do
   """
   @pin 25
 
+  # コンパイルする際の警告を抑制する
+  # AtomVMのライブラリGPIOが対象です
+  @compile {:no_warn_undefined, [GPIO]}
   def start do
     IO.inspect("RpiPicoLed boot Ver 0.03")
     GPIO.init(@pin)
