@@ -1,6 +1,12 @@
 # Elixir(AtomVM)でLチカ　〜 Raspberry Pi Pico 〜
 
 
+### 開発環境
+- Ubuntu 24.04
+- Elixir 1.17.1-otp-27
+- Erlang 27.2.1
+- Raspberry Pi Pico
+
 ### ビルド
 
 ```
