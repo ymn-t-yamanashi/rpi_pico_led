@@ -17,10 +17,10 @@ $ mix atomvm.uf2create --family_id rp2040
 ### Raspberry Pi Picoにビルド結果を転送
 
 
-## 前提
-
 ```
-`AtomVM-pico-v0.6.6.uf2` を一度転送済みであるとこ
+前提
+
+AtomVM-pico-v0.6.6.uf2 を一度転送済みであるとこ
 
 https://github.com/atomvm/AtomVM/releases/download/v0.6.6/atomvmlib-v0.6.6.uf2
 からダウンロードできます
