@@ -9,7 +9,7 @@ defmodule RpiPicoLed.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       atomvm: [
-        start: RpiPicoLed02,
+        start: RpiPicoLed03,
         lash_offset: 0x210000
       ]
     ]
